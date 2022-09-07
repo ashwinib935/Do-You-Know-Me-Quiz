@@ -16,4 +16,6 @@ Show the highest score details .
 readline-sync
 chalk
 
+# Preview
  
+![mark1](https://user-images.githubusercontent.com/110533153/188836482-6f561c4c-1660-416b-91bb-dad5fb3e237c.PNG)
