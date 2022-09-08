@@ -45,14 +45,20 @@ let questions = [
   questionNine = {
     question: "Which technical language Ashwini like?",
     answer: "JavaScript"
-  }, 
+  },
   questionTen = {
     question: "Which is Ashwini's favorite movie?",
     answer: "3 idiots"
   }
 
 ]
-let highScore = [{ name: "Shamal", score: 4 }, { name: "Shantanu", score: 3 }];
+let highScore = [{
+  name: "Shamal",
+  score: 9
+}, {
+  name: "Shantanu",
+  score: 8
+}];
 
 
 
@@ -69,8 +75,7 @@ function play(question, answer) {
   if (userAnswer.toUpperCase() === answer.toUpperCase()) {
     console.log(right("You are right"));
     userScore++;
-  }
-  else {
+  } else {
     console.log(wrong("You are wrong"));
   }
   console.log("Current score:", userScore);
@@ -86,8 +91,7 @@ function game() {
 function showScore() {
   if (userScore > 0) {
     console.log("YAY! You SCORED: ", userScore);
-  }
-  else {
+  } else {
     console.log("You SCORED: ", userScore, "Please try again...");
   }
   console.log("**********************")
