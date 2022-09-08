@@ -29,7 +29,28 @@ let questions = [
   questionFive = {
     question: "Which is Ashwini's hobby?",
     answer: "Traveling"
+  },
+  questionSix = {
+    question: "Which is Ashwini's favorite dish?",
+    answer: "Pani puri"
+  },
+  questionSeven = {
+    question: "Which is Ashwini's favorite place?",
+    answer: "Ozar"
+  },
+  questionEight = {
+    question: "Where were Ashwini working ?",
+    answer: "Cognizant"
+  },
+  questionNine = {
+    question: "Which technical language Ashwini like?",
+    answer: "JavaScript"
+  }, 
+  questionTen = {
+    question: "Which is Ashwini's favorite movie?",
+    answer: "3 idiots"
   }
+
 ]
 let highScore = [{ name: "Shamal", score: 4 }, { name: "Shantanu", score: 3 }];
 
